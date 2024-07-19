@@ -1,0 +1,222 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hola chat", "Hola!", "Hola, puedes ayudarme?", "Buenas!", "Hola", "Hola?", 
+                "Hola, como estas?", "Hola, que tal?", "Buenas", "Buenas!", "Buenas, como estas?", 
+                "Buenas, que tal?", "buena", "la buena", "Hola chatbot", "Hola chatbot!", "Hola chatbot, puedes ayudarme?", 
+                "Buenas chatbot!", "Hola chatbot", "Hola chatbot?", "Hola chatbot, como estas?", 
+                "Hola chatbot, que tal?", "Buenas chatbot", "Buenas chatbot!", "Buenas chatbot, como estas?", 
+                "Buenas chatbot, que tal?", "Hola asistente", "Hola asistente!", "Hola asistente, puedes ayudarme?", 
+                "Buenas asistente!", "Hola asistente", "Hola asistente?", "Hola asistente, como estas?", 
+                "Hola asistente, que tal?", "Buenas asistente", "Buenas asistente!", "Buenas asistente, como estas?", 
+                "Buenas asistente, que tal?", "Como vas?", "Como estas?", "Como te sientes?", 
+                "Como te encuentras", "Como te va?", "Como te va?", "Como te sientes hoy?", 
+                "Como te encuentras hoy?", "Como te va hoy?", "Como te va hoy?", "Como te sientes hoy?", 
+                "Como te encuentras hoy?", "Como te va hoy?", "Como te va hoy?", "Holi", "Holaaaa", 
+                "ola", "olaaaa"
+            ],
+            "responses": [
+                "Hola usuario, soy tu asistente PAP, ¿Cómo te sientes el día de hoy?", 
+                "Hola usuario, me alegra que estés aquí. ¿Quieres compartir conmigo lo que te está pasando hoy?", 
+                "Hola usuario, estoy aquí para escucharte. ¿Qué hay en tu mente en este momento?", 
+                "Hola usuario, respira hondo. Estoy aquí para acompañarte en este momento. ¿Te gustaría hablar sobre lo que te está pasando?", 
+                "Hola usuario. Es valiente buscar ayuda cuando la necesitas. ¿Qué te trae por aquí?", 
+                "Hola, ¿cómo puedo ayudarte hoy?", 
+                "Hola, ¿en qué puedo asistirte ahora mismo?", 
+                "¡Hola! Estoy aquí para escuchar lo que necesites compartir."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Adios", "Hasta luego", "Hasta la próxima", "Nos vemos", "Chao", "Chao chao", 
+                "Chao!", "vemos", "chao", "hasta pronto", "chao chao", "adios!", "suerte", 
+                "Hasta mañana", "Nos vemos pronto", "Adiós, cuídate", "Hasta luego, cuídate"
+            ],
+            "responses": [
+                "Adios usuario, espero que tengas un buen día.", 
+                "Hasta luego usuario, si necesitas algo más, aquí estaré.", 
+                "Hasta la próxima usuario, cuídate mucho.", 
+                "Nos vemos usuario, recuerda que estoy aquí para ti.", 
+                "Chao usuario, si necesitas algo más, no dudes en buscarme.", 
+                "Chao chao usuario, espero que tengas un buen día.", 
+                "Chao usuario, si necesitas algo más, aquí estaré.",
+                "Hasta mañana, espero que te sientas mejor para entonces.",
+                "Cuídate mucho y recuerda que estoy aquí si necesitas hablar más tarde."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "garsias!", "Gracias por tu ayuda", "Gracias por escucharme", "Gracias por estar aquí", 
+                "Gracias por tu tiempo", "Gracias por tu apoyo", "Gracias por tu paciencia", 
+                "Gracias por entenderme", "Te lo agradezco", "Muchas gracias", "muchisimas gracias", 
+                "aprecio eso", "agradezco eso", "gracias", "gracias", "gracias", "gachas", "gracias", 
+                "grasias", "Gracias", "Gracias", "Gracias",
+                "Gracias por estar aquí para mí", "Te agradezco mucho tu apoyo"
+            ],
+            "responses": [
+                "De nada usuario, estoy aquí para ayudarte.", 
+                "No hay de qué usuario, estoy aquí para escucharte.", 
+                "No hay problema usuario, estoy aquí para acompañarte.", 
+                "No hay problema usuario, estoy aquí para apoyarte.", 
+                "No hay problema usuario, estoy aquí para ayudarte.", 
+                "No hay problema usuario, estoy aquí para escucharte.", 
+                "No hay problema usuario, estoy aquí para acompañarte.",
+                "Me alegra haber podido ayudarte. Si necesitas algo más, no dudes en decirlo.",
+                "Es un placer estar aquí para ti. Gracias por tus amables palabras."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "empathy",
+            "patterns": [
+                "Me siento triste", "Estoy ansioso", "No me siento bien", "Siento mucha presión", 
+                "Estoy estresado", "Siento una carga pesada", "No puedo dejar de preocuparme", 
+                "Me siento solo", "Estoy deprimido", "No sé qué hacer", "Me siento abrumado", 
+                "Siento que no puedo más", "Estoy muy cansado", "Tengo miedo", "No sé cómo seguir adelante",
+                "Estoy pasando por un momento difícil", "Siento que no tengo salida"
+            ],
+            "responses": [
+                "Lo siento mucho que te sientas así. Estoy aquí para escucharte y apoyarte.",
+                "Entiendo que te sientas así. ¿Te gustaría hablar más sobre lo que te preocupa?", 
+                "Es importante reconocer estos sentimientos. ¿Cómo puedo ayudarte a sentirte mejor?", 
+                "Estoy aquí para ti. ¿Te gustaría compartir más sobre lo que estás experimentando?", 
+                "Tu bienestar es importante. ¿Hay algo específico que te gustaría discutir o explorar?", 
+                "Es normal sentirse abrumado a veces. ¿Te gustaría hablar sobre lo que está causando esta sensación?",
+                "Tus sentimientos son válidos. Hablemos sobre lo que estás pasando y cómo puedo apoyarte."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "selfcare",
+            "patterns": [
+                "¿Qué puedo hacer para sentirme mejor?", "¿Cómo puedo cuidarme mejor?", 
+                "Necesito consejos para relajarme", "¿Qué estrategias me recomiendas para el estrés?", 
+                "¿Cómo puedo mejorar mi bienestar emocional?", "Dame consejos para manejar la ansiedad", 
+                "¿Cómo puedo evitar el agotamiento?", "¿Qué ejercicios de relajación me recomiendas?",
+                "¿Qué hacer cuando me siento agotado emocionalmente?", "¿Cómo puedo mantenerme equilibrado?"
+            ],
+            "responses": [
+                "Aquí tienes algunos consejos para cuidar de ti mismo: practica la respiración profunda, haz ejercicio regularmente, y asegúrate de descansar lo suficiente.", 
+                "Te recomiendo que intentes técnicas de relajación como la meditación o el yoga. También es útil hablar con alguien en quien confíes.", 
+                "Tomarte un tiempo para ti, practicar el autocuidado y buscar actividades que disfrutes puede ser muy beneficioso.", 
+                "Recuerda que está bien pedir ayuda. Hablar con un profesional puede proporcionarte estrategias adicionales para manejar el estrés.", 
+                "La auto-compasión es importante. Asegúrate de darte un espacio para sentirte bien y buscar apoyo cuando lo necesites.", 
+                "Considera crear una rutina diaria que incluya momentos de relajación y actividades que te hagan sentir bien.",
+                "Escuchar música relajante, practicar ejercicios de respiración y dedicar tiempo a tus hobbies pueden ayudarte a sentirte mejor."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "emotional_support",
+            "patterns": [
+                "Necesito apoyo emocional", "Estoy buscando apoyo", "Me siento solo y necesito hablar", 
+                "¿Puedes escucharme?", "Estoy pasando por un momento difícil", "Necesito ayuda con mis emociones",
+                "Siento que nadie me entiende", "Me vendría bien alguien con quien hablar"
+            ],
+            "responses": [
+                "Estoy aquí para escucharte. ¿Qué te preocupa en este momento?", 
+                "A veces, hablar sobre lo que sentimos puede ser muy liberador. ¿Te gustaría compartir más conmigo?", 
+                "Es importante buscar apoyo cuando lo necesitamos. Estoy aquí para escucharte y apoyarte.", 
+                "Cuéntame lo que estás sintiendo. Estoy aquí para ayudarte a procesar tus emociones.", 
+                "No estás solo en esto. Estoy aquí para ofrecerte el apoyo que necesitas. ¿Cómo te puedo ayudar?",
+                "Hablar sobre tus sentimientos puede ser un primer paso para sentirte mejor. Estoy aquí para escucharte sin juzgar."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "coping_mechanisms",
+            "patterns": [
+                "¿Cómo puedo manejar mis pensamientos negativos?", "Dame técnicas para calmarme", 
+                "¿Qué hacer cuando estoy muy estresado?", "¿Cómo puedo evitar pensamientos intrusivos?", 
+                "¿Qué técnicas me ayudan a relajarm?", "¿Cómo puedo lidiar con mi ansiedad?",
+                "Necesito formas de manejar mi estrés", "¿Qué hago cuando me siento sobrecargado?"
+            ],
+            "responses": [
+                "Probar técnicas de respiración profunda y meditación puede ayudarte a calmarte y reducir el estrés.", 
+                "Mantén una rutina saludable y asegúrate de descansar lo suficiente. También puede ser útil hablar con un terapeuta sobre tus pensamientos.", 
+                "Llevar un diario para expresar tus pensamientos y sentimientos puede ser una forma efectiva de manejarlos.", 
+                "Haz ejercicio regularmente. El movimiento físico puede reducir significativamente el estrés y mejorar tu estado de ánimo.", 
+                "Considera practicar la atención plena (mindfulness) para ayudarte a centrarte en el presente y reducir la ansiedad.", 
+                "Hablar con amigos o familiares de confianza sobre lo que estás pasando también puede proporcionar alivio."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "crisis_support",
+            "patterns": [
+                "Estoy en crisis", "Necesito ayuda urgente", "Siento que no puedo más", 
+                "Estoy en peligro", "No sé a quién acudir", "¿Qué hacer en una emergencia?", 
+                "Me siento muy mal", "Necesito ayuda ahora"
+            ],
+            "responses": [
+                "Tu seguridad es lo más importante. Por favor, contacta a un profesional o a los servicios de emergencia si estás en peligro.", 
+                "Es crucial que busques ayuda inmediata si sientes que estás en crisis. Llama a los servicios de emergencia o a una línea de apoyo.", 
+                "No estás solo. Busca ayuda profesional o llama a una línea de crisis si sientes que no puedes manejar la situación.", 
+                "Si estás en peligro inmediato, por favor llama a los servicios de emergencia. Tu seguridad es la prioridad.", 
+                "Recuerda que hay profesionales capacitados para ayudarte en momentos de crisis. Busca su apoyo de inmediato.", 
+                "Asegúrate de buscar ayuda si sientes que la situación es urgente. Ellos están preparados para ofrecerte el apoyo necesario."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "Necesito motivación", "No encuentro fuerzas para seguir", "Estoy desmotivado", 
+                "¿Cómo puedo mantenerme motivado?", "Siento que no puedo seguir adelante", 
+                "Necesito un empujón", "Me falta inspiración", "Estoy luchando para seguir adelante"
+            ],
+            "responses": [
+                "Recuerda que cada paso pequeño cuenta. A veces, dar un pequeño paso hacia adelante puede hacer una gran diferencia.", 
+                "Enfócate en tus metas y en lo que has logrado hasta ahora. Eres más fuerte de lo que crees.", 
+                "Hablar con alguien en quien confíes puede proporcionarte el apoyo y la perspectiva que necesitas para seguir adelante.", 
+                "No dudes en buscar inspiración y rodearte de personas que te alienten. Tu esfuerzo y dedicación valen la pena.", 
+                "Recuerda que es normal sentirse desmotivado a veces. La clave es seguir adelante y buscar apoyo cuando lo necesites.", 
+                "Tómate un momento para reflexionar sobre tus logros y cómo te han llevado hasta aquí. Tu esfuerzo y determinación son valiosos."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "self_reflection",
+            "patterns": [
+                "Necesito reflexionar sobre mi vida", "Quiero entender mis emociones", 
+                "¿Cómo puedo analizar mis pensamientos?", "Me gustaría hacer una introspección", 
+                "¿Cómo puedo evaluar mi situación actual?", "Necesito tiempo para pensar", 
+                "Quiero evaluar mis metas", "Estoy buscando claridad en mi vida"
+            ],
+            "responses": [
+                "Tomarte un tiempo para la auto-reflexión puede ser muy útil. Considera escribir un diario para explorar tus pensamientos y emociones.", 
+                "Pregúntate a ti mismo sobre lo que realmente te preocupa y lo que te gustaría cambiar. La introspección puede ayudarte a obtener claridad.", 
+                "Hablar con un terapeuta puede proporcionarte una guía en el proceso de auto-reflexión y ayudarte a comprender mejor tus emociones.", 
+                "Realizar actividades que promuevan la auto-reflexión, como la meditación, puede ser beneficioso para entender mejor tus pensamientos y sentimientos.", 
+                "Es importante ser amable contigo mismo durante el proceso de auto-reflexión. Acepta tus emociones y busca formas constructivas de abordarlas.", 
+                "Dedicar tiempo a la auto-reflexión te ayudará a conectar con tus objetivos y motivaciones. ¿Hay algo en particular en lo que te gustaría enfocarte?"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "", "", "", "", "", "", "", "", "", ""
+            ],
+            "responses": [
+                "Lo siento, no puedo entenderte.", 
+                "No tengo una respuesta para eso.", 
+                "No estoy seguro de lo que quieres decir.", 
+                "No puedo ayudarte con eso.", 
+                "No tengo información sobre eso.", 
+                "No tengo una respuesta para eso.", 
+                "No tengo una respuesta para eso.", 
+                "Parece que no entendí lo que dijiste. ¿Puedes intentar reformularlo?", 
+                "Lo siento, no puedo procesar esa solicitud. ¿Hay algo más en lo que pueda ayudarte?", 
+                "No estoy seguro de cómo responder a eso. ¿Puedes darme más detalles?"
+            ],
+            "context": ""
+        }
+    ]
+}
